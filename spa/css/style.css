@@ -1,0 +1,781 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/*//////////////////////////////////////////NAVBAR/////////////////////////////////////*/
+.padre-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem .75rem;
+    height: auto;
+    width: 100%;
+    background-color: #f9f8f6;
+}
+
+
+
+.padre-nav_h1{
+    text-align: center;
+    font-size: 3.5rem;
+    font-family: "PT Serif", serif;
+    color: #ff4f9d
+    }
+
+
+
+.padre-nav-ul{
+    text-align: center;
+    padding: .625rem;
+    list-style: none;
+    display: flex;
+}
+
+.padre-nav-ul li{
+    padding: 1.25rem;
+}
+
+a{
+    text-decoration: none;
+        color: rgba(0, 0, 0, .55);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+/*//////////////////////////////////////////nabvar pseudoclase/////////////////////////////////////*/
+
+
+.padre-nav-ul li:hover{
+    -webkit-text-fill-color: #1c1a1d;
+}
+
+
+
+
+
+/*//////////////////////////////////////////MAIN= CARRUSEL/////////////////////////////////////*/
+.carousel-itembd-placeholder-img{
+    background-color: aqua;
+}
+.img-carrusel{
+    width: 100%;
+    height: 31.25rem;
+    opacity: 0.7;
+}
+
+.tittle-c{
+    font-size: 4.375rem;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2{
+    font-family: 'Great Vibes', cursive;
+    font-size: 4.375rem;
+    padding-bottom: 5.625rem;
+    color: rgb(218, 0, 189);
+
+}
+
+
+
+/*///////////////////////////////////MAIN= SERVICIOS-titulos/////////////////////////////////////*/
+.servicios__titulo{
+    width: 100%;
+    height: 12.5rem;
+}
+.servicios-titulos__h5{
+    font-size:1.6em;
+    width: 100%;
+    text-align: center;
+    color: #ff4f9d;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 3.125rem;
+}
+
+.servicios-titulos__p{
+    font-size: 3.75rem;
+    text-align: center;
+    font-family: "PT Serif",serif;
+    color: black;
+}
+
+/*////////////////////////////////MAIN= SERVICIOS-tarjetas de muestras////////////////////////////*/
+
+
+.servicios__padrebox{
+    box-shadow: .0625rem .0625rem .125rem;
+    border-radius: .625rem;
+    background-color:rgb(246, 237, 237);
+    width: 29.375rem;
+    height: 12.5rem;
+    display: flex;
+    padding: .625rem;
+    transition: 0.5s;
+}
+
+/*///////////////PSEUDOCLASE=padrebox////////////////////////////*/
+.servicios__padrebox:hover{
+    background-color: #ff4f9d;
+    box-shadow: black .625rem .625rem .625rem;
+    transition: 0.5s;
+}
+
+
+.servicios-padrebox__text{
+    width: 19.375rem;
+    height: auto;
+}
+
+.servicios-padrebox-text__h{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.875rem;
+    text-align: center;
+}
+
+.servicios-padrebox-text__p{
+    color: #747d88;
+}
+
+/*//PSEUDOCLASE=h-p esto sirve para aplicar al elemento padre y a su vez a sus hijos////////*/
+
+.servicios__padrebox:hover .servicios-padrebox-text__h{
+    color: aliceblue;
+}
+.servicios__padrebox:hover .servicios-padrebox-text__p{
+    color: aliceblue;
+}
+
+
+
+.servicios-padrebox__boximg{
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+.servicios-padrebox-boximg__img{
+    width: 8.125rem;
+    height: 7.5rem;
+    border-radius: .625rem;
+}
+
+
+
+.cajaflex{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    padding: 1.25rem;
+}
+
+.borde-d{
+    border-right: #ff4f9d solid .25rem;
+}
+
+.borde-i{
+    border-left: #ff4f9d solid .25rem;
+}
+
+
+
+/*/////////SOBRE-NOSOTROS///////////////////////////////////////////////////////////////////////////////////*/
+#nosotros{
+    margin-top: 3.75rem;
+    width: 100%;
+    height: 56.25rem;
+    display: flex;
+}
+
+iframe{
+    width: 22.5rem;
+    height: 25.9375rem;
+    border-radius: 1.875rem;
+    margin: 12.5rem 2.5rem 5rem 5rem;
+}
+
+.page2{
+    font-size:2.5rem;
+}
+.nosotros__p{
+    padding: 3.125rem;
+    color: #747d88
+}
+
+
+/*/////////SOBRE-horarios///////////////////////////////////////////////////////////////////////////////////*/
+
+.padre-horario{
+border-radius: .625rem;
+padding: 2.375rem;
+border: black solid .125rem;
+height: auto;
+width: 37.5rem;
+background-color: black;
+opacity: 0.7;
+}
+
+.padre-horario h5{
+    font-size: 3.125rem;
+    color: #fff;
+}
+
+.padre-horario p{
+    color: #ff4f9d;
+    font-size: 1.5rem;
+}
+
+.in{
+    margin: 1.875rem .75rem 0rem;
+    padding: 0rem .75rem;
+    width: 12.5rem;
+    height: 3.75rem;
+    border-radius: .625rem;
+    color: #fff;
+    border: .0625rem solid #ced4da;
+    background-color: black;
+    opacity: 0.8;
+}
+#tex{
+    background-color: black;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.caja_input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+textarea{
+    padding: .375rem .75rem;
+    border-radius: .625rem;
+    width: 26.875rem;
+    height: 12.5rem;
+    margin-top: 1.875rem;
+}
+.padre-horario_boton{
+    border-radius: .625rem;
+    width: 26.875rem;
+    margin: 2.8125rem;
+    padding: .6875rem 2.375rem;
+    background-color: #ff4f9d;
+    color: aliceblue;
+}
+
+
+
+.padre-hora{
+border-radius: .625rem;
+padding: 1.75rem;
+width: 25rem;
+height: 37.5rem;
+background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, .2));
+}
+
+
+.padre-hora h5{
+    font-size: 2.5rem;
+}
+
+.padre-hora_reserva{
+height: auto;
+width: auto;
+display: flex;
+justify-content: space-between;
+padding: .625rem .625rem 0rem .625rem;
+margin: .625rem 0rem;
+color: #fff
+}
+.contnedor-reserva{
+    padding: 2.5rem;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(rgba(0, 0, 0, 0.5)) ,url(../images/alan-caishan-cU53ZFBr3lk-unsplash.jpg);
+    background-size: cover;
+    
+}
+
+/*///////////////////////////////pseudoclase horario//////////////////////////////////////////*/
+.padre-horario_boton:hover{
+background: #3F5EFB;
+background: linear-gradient(nulldeg, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+}
+
+
+
+
+
+/*////////////////////galeria/////////////////////*/
+
+.galeria{
+    text-align: center;
+}
+.galeria p{
+    margin-top: 3em;
+    color: #ff4f9d;
+    font-size: 1.25rem;
+}
+.galeria h5{
+    font-size: 3.5rem;
+    margin-bottom: 1em;
+    font-family: "PT Serif", serif;
+    font-weight: 800;
+}
+.ul-galeria{
+    list-style: none;
+display: flex;
+justify-content: center;
+}
+
+.ul-galeria li a{
+    color: #fff;
+    border: #747d88;
+    padding: .5rem .5rem;
+    margin: .625rem 2.5rem;
+    text-align: center;
+    border-radius: 800px;
+    background-color: #FF4F9D;
+}
+
+.img{
+    width: 100%;
+    height: auto;
+    text-align: center;
+
+}
+
+.img img{
+    width: 12.5rem;
+    height: 12.5rem;
+    margin: 1.25rem;
+    border-radius: .625rem;
+}
+
+
+/*///////////////////////////pseudoclase galeria//////////////////////////////////////////////*/
+
+.ul-galeria li a:hover{
+background: #3F5EFB;
+background: radial-gradient(circle,rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+box-shadow: #1c1a1d .3125rem .3125rem .3125rem;
+transition: 0.5s;
+}
+
+
+.img img:hover{
+    box-shadow: #1c1a1d .375rem .375rem .375rem;
+    width: 13.0625rem;
+    height: 13.0625rem;
+    transition: 0.4s;
+}
+
+
+
+/*/////////////////TARJETAS////////////////////*/
+.conteiner-target{
+    width: 100%;
+    margin: 2.5rem 0rem;
+    padding: 1.5rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.5)) ,url(../images/alan-caishan-cU53ZFBr3lk-unsplash.jpg);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    gap: 3.125rem;
+}
+
+
+
+.target{
+background-color: #f9f8f6;
+border: #FF4F9D solid .1875rem;
+height: auto;
+width: 18em;
+padding: 1.5rem;
+display: flex;
+align-items: center;
+justify-content: space-between;
+border-radius: .625rem .625rem 0rem 0rem;
+}
+
+.target h5{
+    font-size: 3.5rem;
+}
+
+.target_small{
+    vertical-align: 1.875rem;
+
+}
+
+.target_p{
+    font-size: 1.125rem;
+    color: #ff4f9d;
+    font-family: "PT Serif", serif;
+    vertical-align: middle;
+}
+
+
+.target small{
+    font-size: 1rem;
+    color:#6c757d;
+}
+
+.check{
+    padding: 1.5rem;
+    background-color: rgb(246, 237, 237, 0.3);
+    width: 18em;
+    height: auto;
+    border-radius:0rem 0rem .625rem .625rem;
+}
+
+.check p{
+    color: #ffffff;
+}
+
+
+.check p::before{
+    content: "✔";
+}
+
+.check_a{
+    border-radius: 800px;
+    background-color: #FF4F9D;
+    color: #fff;
+    padding: .375rem 1.5rem;
+}
+
+/*//////////////////////////////fotos////////////////////////////////////////////*/
+.especialistas{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 1.875rem;
+}
+
+.especialistas_p{
+    font-size: 1.5rem;
+    color: #ff4f9d;
+    font-family: "PT Serif", serif;
+}
+
+.especialistas_h{
+    font-size: 3.5rem;
+    color: #1c1a1d;
+}
+
+
+.especialistas_img{
+    width: auto;
+    background-color: #f9f8f6 ;
+    border-radius: .625rem .625rem 0rem 0rem;
+}
+
+
+.especialistas_container{
+    width: 28.5rem;
+    text-align: center;
+}
+
+.especialistas_container h6{
+    color: #fff;
+    font-size: 1.75rem;
+    font-family: "PT Serif", serif;
+}
+
+.especialistas_container p{
+    color: #fff;
+    font-size:1rem;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+
+.especialistas_container article{
+background-color: #ff4f9d;
+padding: .625rem;
+border-radius: 0rem 0rem .625rem .625rem;
+margin-bottom: 1.25rem;
+}
+
+.padre-especialista{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 1.25rem;
+    margin-bottom: 1.875rem;
+}
+
+
+
+/*///////////////////////PSEUDOCLASE FOTOS ESPECIALISTAS////////////////////////////////////*/
+
+.especialistas_container article:hover{
+    background: #3F5EFB;
+    background: linear-gradient(nulldeg, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+
+}
+
+.especialistas_img:hover{
+    background: linear-gradient(rgba(0,0,0,0.5));
+}
+
+
+
+
+
+
+
+
+
+
+
+    /*//////////////////////footer//////////////////////////////////////*/
+.footer{  
+        margin-top: 1.5rem;
+        width: 100%;
+        height: auto;
+        background: linear-gradient(rgb(255, 79, 157,0.5)) ;
+    }
+
+.icono{
+    height: auto;
+    width: 18em;
+    padding: 1.25rem;
+}
+
+.icono_h6{
+    font-size: 1.5rem;
+}
+
+.icono_p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+}
+
+.container-ubicacion{
+    padding: .625rem;
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+
+}
+
+.mapa{
+    margin: 1.25rem;
+    width: 60em;
+    border-radius: .625rem;
+    }
+
+.iframe{
+    display: flex;
+    justify-content: center;
+    }
+
+
+
+
+
+
+
+/*//////////////////////////////////////MEDIA QUIERIS/////////////////////////////////////////////////////////*/
+@media (max-width:66.375rem){
+    .contnedor-reserva{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.25rem;
+    }
+}
+
+
+@media (max-width:60.4375rem) {
+    /*tarjetas*/
+    .servicios__padrebox{
+    width: 28.125rem;
+    height: auto;
+    }
+
+
+    .caja_input{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .padre-horario p{
+        font-size: 1.275rem;
+    }
+
+    .padre-horario h5{
+        font-size: 2.5rem;
+    }
+
+    .in{
+    width: 100%;
+    height: 2.5rem;
+        }
+
+    #tex{
+        width: 100%;
+        height: 6.25rem;
+    }
+
+    .padre-horario_boton{
+        margin-left: 20%;
+        width: 19em;
+        text-align: center;
+    }
+
+    .padre-horario{
+        width: 31.25rem;
+    }
+
+}
+
+/*//////sobre nosotros/////////*/
+@media(max-width:60.25rem){
+    .nosotros__p{
+        padding-top: .625rem;
+    }
+}
+
+@media (max-width:58.5625rem){
+    .cajaflex{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .ul-galeria{
+        flex-wrap: wrap;
+        gap: 1.25rem;
+    }
+    #nosotros{
+        flex-wrap: wrap-reverse;
+        align-items: center;
+    }
+    .nosotros__cajaiframe{
+    margin-top:12.5rem;
+    }
+
+    .especialistas_p{
+        font-size: 1.25rem;
+    }
+    .especialistas_h{
+        font-size: 1.475rem;
+    }
+    .especialistas_img{
+        width: 16rem;
+    }
+    .especialistas_container h6{
+        font-size:1.25rem ;
+    }
+
+    .especialistas_container p{
+        font-size:1rem ;
+    }
+    .especialistas_container{
+        width: 16rem;
+    }
+    .mar{
+        margin-bottom: 6.25rem;
+    }
+
+}
+
+
+
+@media (max-width:39.375rem){
+    .target , .check {
+        width: 15em;
+    }
+}
+/*sobre nosotros*/
+@media(max-width:53.4375rem){
+    iframe{
+        height: 200px;
+        width: 200px;
+    }
+
+}
+
+/*reserva*/
+@media(max-width:50.4375rem){
+    .nosotros__p{
+    max-height: 12.5rem;
+    width: 100%;
+    
+    /* Esta es la propiedad clave */
+    overflow: auto;;
+    }
+}
+@media(max-width:39rem){
+    .servicios-titulos__p{
+        font-size: 2.5rem;
+    }
+    .padre-horario_boton{
+        width: 100%;
+        margin-left: 0%;
+    }
+}
+
+@media(max-width:34.6875rem){
+    .padre-especialista , .conteiner-target{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width:34.75rem){
+    .container-ubicacion{
+        gap: .1875rem;
+    }
+}
+
+@media (max-width:31.25rem){
+    .container-ubicacion , .padre-nav{
+        flex-direction: column;
+    }
+}
+
+@media(max-width:29.375rem){
+    .servicios__padrebox{
+    width: 20rem;
+    height: auto;
+}
+    .servicios-padrebox-boximg__img{
+            width: 6.875rem;
+            height: 6.25rem;
+    }
+
+}
+
+
+
+
+@media(max-width:24.375rem){
+    .padre-nav-ul li{
+        padding: .625rem;
+}
+}
+
+@media(max-width:22.875rem){
+    .padre-horario{
+    padding: 1.75rem;
+    width: 17.375rem;
+}
+}
+
+@media(max-width:20.875rem){
+    .contnedor-reserva{
+        align-items: start;
+        padding: .625rem;
+}
+}
